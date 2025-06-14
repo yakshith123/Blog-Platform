@@ -1,31 +1,60 @@
 # Blog Platform
 
+A modern blog platform designed for seamless content creation, management, and publishing.
 
-## Overview
-This repository contains the source code for a Blog Platform. This platform allows users to create, edit, and share their own blog posts. The application is built with Next.js 14 and uses MongoDB as the database with Prisma ORM for data management.
+---
 
+## Live Demo
 
+The project is live and can be accessed at: [Blog Platform Live](https://blog-platform-1-c1do.onrender.com)
 
-## Features
-- User Authentication: Register and log in to your account securely.
-- Create Blogs: Users can create their own blog posts with a user-friendly text editor.
-- Edit Blogs: Users can edit their existing blog posts.
-- Delete Blogs: Users can delete their blog posts if they wish.
-- Profile Update: Users can update their profile information.
-- Image Upload: The platform supports image uploads using Cloudinary.
+---
 
-## Technologies Used
-- Frontend: Next.js 14
-- Backend: Node.js
-- Database: MongoDB with Prisma ORM
-- Image Upload: Cloudinary
+## Table of Contents
 
+1. [Project Overview](#project-overview)  
+2. [Backend Setup](#backend-setup)  
+3. [API Specifications](#api-specifications)  
+4. [Testing Instructions](#testing-instructions)  
+5. [Commit History Best Practices](#commit-history-best-practices)  
+6. [CI/CD Pipeline](#cicd-pipeline)  
 
+---
 
-## Installation
-1. Clone this repository: 
-2. Navigate to the project directory: `cd Blog-Platform`
-3. Install dependencies: `npm install`
-4. Start the server: `npm run start`
-   
+## Project Overview
+
+This project provides a full-featured blog platform, including backend APIs for managing posts, users, comments, and authentication. It is designed with scalability and modern web best practices in mind.
+
+---
+
+## Backend Setup
+
+Follow these steps to set up the backend development environment:
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/yakshith123/Blog-Platform.git
+   cd Blog-Platform
+## Install dependencies
+npm install
+## Database setup
+Ensure your database is running and accessible according to the connection string.
+Run any necessary migrations or seed scripts:
+npm run migrate
+npm run seed
+
+Start the backend server
+npm start
+
+## Testing Instructions
+Automated tests ensure the quality and reliability of the codebase.
+
+Run unit and integration tests:
+npm test
+
+Test coverage report:
+Use appropriate coverage tools (e.g., Jest coverage) to generate coverage reports:
+npm run test:coverage
+Ensure your tests cover all critical backend functionality, including authentication, posts, and comments.
+
 
