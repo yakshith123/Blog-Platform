@@ -12,12 +12,13 @@ The project is live and can be accessed at: [Blog Platform Live](https://blog-pl
 
 ## Table of Contents
 
-1. [Project Overview](#project-overview)  
-2. [Backend Setup](#backend-setup)  
-3. [API Specifications](#api-specifications)  
-4. [Testing Instructions](#testing-instructions)  
-5. [Commit History Best Practices](#commit-history-best-practices)  
-6. [CI/CD Pipeline](#cicd-pipeline)  
+1. [Project Overview]
+2. (#project-overview)  
+3. [Backend Setup]
+4. (#backend-setup)  
+5. [Testing Instructions]
+6. (#testing-instructions)  
+ 
 
 ---
 
@@ -35,10 +36,15 @@ Follow these steps to set up the backend development environment:
    ```bash
    git clone https://github.com/yakshith123/Blog-Platform.git
    cd Blog-Platform
+
+   
 ## Install dependencies
 npm install
+
+
 ## Database setup
 Ensure your database is running and accessible according to the connection string.
+
 Run any necessary migrations or seed scripts:
 npm run migrate
 npm run seed
