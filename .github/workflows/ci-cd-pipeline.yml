@@ -19,13 +19,13 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '14'  # Change this to your required Node.js version
 
       - name: Install dependencies
-        run: npm install
+        run: npm install  # Change this if you use a different package manager
 
       - name: Run tests
-        run: npm test
+        run: npm test  # Change this to your test command
 
   deploy:
     runs-on: ubuntu-latest
@@ -39,4 +39,6 @@ jobs:
       - name: Deploy to server
         run: |
           echo "Deploying to server..."
-        
+          # Add your deployment commands here
+          # For example, if using SSH to deploy:
+          # ssh user@your-server "cd /path/to/your/app && git pull && npm install && npm run start"
