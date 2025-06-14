@@ -6,7 +6,7 @@ A modern blog platform designed for seamless content creation, management, and p
 
 ## Live Demo
 
-The project is live and can be accessed at: https://blog-platform-1-c1do.onrender.com
+The project is live and can be accessed at:https://blog-platform-2-pq03.onrender.com
 
 ---
 
